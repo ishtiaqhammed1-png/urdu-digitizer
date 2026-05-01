@@ -17,7 +17,7 @@ import {
 
 // ✅ API key from Vercel environment variable (VITE_ prefix required)
 const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || "";
-const MODEL = "gemini-1.5-flash"; // latest stable flash
+const MODEL = "gemini-1.5-flash-latest"; // latest stable flash
 
 const App = () => {
   const [files, setFiles]           = useState([]);
